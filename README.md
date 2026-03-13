@@ -13,16 +13,30 @@ Comme il s'agit d'ocr, il peut y avoir des erreurs
 Note : un modèle a intérêt à tout déclarer comme entité. On controle en imposant que l'entité doit être un nom de personne.
 Note : il faut des personnes "non connues" ?
 
+# questions prof
+se limiter à un podèle eg gliner est suffisant
+insister sur l'analyse, ce qui marche et pourquoi il y a des erreurs
+spécifier NER 'personne de gauche' est intéressant
+comparer par exemple à document de gauche en demandant à gliner de classifier le transcript
+essayer par exemple différentes formulations.
+pas d'info sur les langues / on ne sait pas si gliner 2 a été entraîné sur du Français
+Ok pour faire d'après une recherche biblio
+Ok pour justifier d'après une évaluation / évaluer le fait que cela marche ou pas. (du coup quand même vérifier par rapport à un spacy fr pour avoir un point de repère).
+
+
 # Outputs
 
 Déterminer les entités présentes dans la profession de foi : nom / prénom du titulaire, nom/prénom du suppléant
 Déterminer les segments du texte où ils apparaissent.
 
 Calculer la probabilité de retrouver ces entités.
-pour spacy et BERT
+pour spacy et BERT x (zero shot, trained)
 controler par le fait que les entités doivent être des personnes
 
-Bonus : est-ce que l'on reconnaît plus facilement certaines entités? par exemple métropole outremer ? gauche / droite ?
+Bonus : est-ce que l'on reconnaît plus facilement certaines entités? par exemple métropole outremer ? gauche / droite ? 
+est-ce plus facile avant ou après ?
+est-ce que c'est plus facile pour des personanges politiques avec plus d'ancienneté ?
+est-ce que le modèle sait classer les entités en gauche/droite ?
 
 
 # Consignes
@@ -33,6 +47,7 @@ Search the literature on the chosen problem and write a short state-of-the-art
 Propose and justify of the choice of the model(s)
 Experiment with the proposed model
 Write an analysis of the results and a conclusion
+5 to 10 pages expected, not more
 
 
 Style analysis ⭐

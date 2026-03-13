@@ -2,3 +2,4 @@ text_files/
 *.pkl
 *.zip
 .ipynb_checkpoints/
+df.parquet

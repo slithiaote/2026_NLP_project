@@ -13,6 +13,12 @@ Comme il s'agit d'ocr, il peut y avoir des erreurs
 Note : un modèle a intérêt à tout déclarer comme entité. On controle en imposant que l'entité doit être un nom de personne.
 Note : il faut des personnes "non connues" ?
 
+# Justifications
+
+Utilisation d'un modèle de petite taille, uniquement CPU
+Modèle zero-shot avec NER configurable
+Calcul d'un jeu d'entraînement à partir des annotations
+
 # questions prof
 se limiter à un podèle eg gliner est suffisant
 insister sur l'analyse, ce qui marche et pourquoi il y a des erreurs
@@ -26,10 +32,12 @@ Ok pour justifier d'après une évaluation / évaluer le fait que cela marche ou
 
 # Outputs
 
-Déterminer les entités présentes dans la profession de foi : nom / prénom du titulaire, nom/prénom du suppléant
-Déterminer les segments du texte où ils apparaissent.
+1) Déterminer les entités présentes dans la profession de foi : nom / prénom du titulaire, nom/prénom du suppléant
+2) Déterminer les segments du texte où ils apparaissent.
+3) Est-ce que Gliner reconnait une entité sur ces segments / recall ?
+4) Calculer la probabilité de retrouver ces entités.
 
-Calculer la probabilité de retrouver ces entités.
+
 pour spacy et BERT x (zero shot, trained)
 controler par le fait que les entités doivent être des personnes
 

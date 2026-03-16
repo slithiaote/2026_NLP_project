@@ -46,6 +46,10 @@ est-ce plus facile avant ou après ?
 est-ce que c'est plus facile pour des personanges politiques avec plus d'ancienneté ?
 est-ce que le modèle sait classer les entités en gauche/droite ?
 
+# todo
+compléter prénom + suppléant
+utiliser gliner large
+
 
 # Consignes
 

@@ -3,3 +3,4 @@ text_files/
 *.zip
 .ipynb_checkpoints/
 df.parquet
+*.parquet*

@@ -13,6 +13,8 @@ Comme il s'agit d'ocr, il peut y avoir des erreurs
 Note : un modèle a intérêt à tout déclarer comme entité. On controle en imposant que l'entité doit être un nom de personne.
 Note : il faut des personnes "non connues" ?
 
+une même tâche présentée sous des angles différents au même algorithme.
+
 # Justifications
 
 Utilisation d'un modèle de petite taille, uniquement CPU
@@ -50,6 +52,9 @@ est-ce que le modèle sait classer les entités en gauche/droite ?
 compléter prénom + suppléant
 utiliser gliner large
 
+extension : étude du suppléant
+est-ce que gliner sait distinguer le titulaire du suppléant ? peut-on l'apprendre ?
+extension : use confidence scores in Gliner
 
 # Consignes
 

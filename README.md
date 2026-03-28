@@ -1,4 +1,29 @@
+# Objective
+
+Recent advances in natural language processing has made extraction of structured information from textual data a lot more flexible and user friendly.
+Current Large Language Models being pre-trained and general purpose, it is possible to specify 
+a task with a simple prompt without the need for computer-intensive training or labour-intensive annotated
+training sets.
+
+
+
+
 # Objectifs du projet
+
+
+
+
+
+
+On cherche à évaluer la capacité d'une méthode NER (named entity recognition) à reconnaître directement des entités spécifiées par l'utilisateur 
+
+
+
+
+
+
+
+
 
 Evaluer/comparer la performance de modéles de NER
 Pour évaluer la performance d'un modèle de NER, il faut pouvoir quantifier les exemples positifs et négatifs.
@@ -79,4 +104,13 @@ Evaluate on the Archelec corpus
 Evaluate on the more recent corpus https://github.com/regardscitoyens/professions-foi-candidats/tree/master
 Sponsorship and personality extraction: Use NER to extract the names of national leaders mentioned (“De Gaulle” “Mitterrand”). Who cites whom? Does a local candidate prefer to link themselves to a national figure or distance themselves?
 Spatial analysis: extract mentioned locations to determine if the discourse is purely rooted locally or if it projects toward national/international stakes.
+
+The grading criteria for project evaluation are:
+
+    Adherence to guidelines and report structure, quality of writing (no LLM style), delay : 3 points
+    Relevance of data analysis: 3 points
+    Releance of the state-of-the-art: 3 points
+    Relevance of the proposed models: 3 points
+    Implementation of the models: 3 points
+    Dicussion of results: 5 points
 

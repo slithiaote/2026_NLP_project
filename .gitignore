@@ -4,3 +4,4 @@ text_files/
 .ipynb_checkpoints/
 df.parquet
 *.parquet*
+*.png

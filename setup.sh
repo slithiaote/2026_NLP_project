@@ -1,0 +1,1 @@
+mc cp s3/slithiaote/2026_NLP_project/df_gliner_full.parquet .
